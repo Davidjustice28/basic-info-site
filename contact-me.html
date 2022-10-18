@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+            margin-right: 25px;
+        }
+
+        li {
+            list-style-type: none;
+            text-decoration: underline;
+        }
+
+        nav {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        form {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border: 4px solid black;
+            width: 70%;
+            padding: 15px;
+            padding-bottom: 20px;
+        }
+
+        input, textarea {
+            border: 2px solid black;
+            width: 80%;
+            font-size: larger;
+        } 
+        
+        textarea {
+            height: 200px;
+        }
+
+        label {
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: larger;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="/about">About Page</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Page</h1>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter full name">
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter email address">
+        <label>Message</label>
+        <textarea placeholder="Leave a comment or message here"></textarea>
+    </form>
+</body>
+</html>
